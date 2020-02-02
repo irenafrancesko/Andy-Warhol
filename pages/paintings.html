@@ -1,0 +1,156 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Collection</title>
+<link href="../style.css" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,700,700i&amp;subset=latin-ext" rel="stylesheet">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+</head>
+
+<body id="bodyCollection">
+	
+<div id="wrapper">
+	
+<header id="header" class="headCollect">
+	
+ <nav id="nav">
+	  
+	<ul class="navUl">
+	   <li><a href="../index.html">Main page</a></li>
+	   <li><a href="biography.html">Biography</a></li>
+	   <li><a href="works.html">Work</a></li> 
+	   <li><a href="quotes.html">Quotes</a></li> 
+	</ul>
+	  
+ </nav>	
+	
+ <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/rBgw3AwDZKg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		
+</header>	
+	
+<main>
+	
+<h1>Collection</h1>
+	
+<p>To buy some of the paintings from our collection, please choose the item(s) and fill in the contact form and we will contact you. </p>	
+<form id="form1" name="form1" method="post" action="script.php">
+ 
+  <table border="1" cellpadding="2" cellspacing="0" id="paint">
+    <tr>
+	   <td>
+		  <img src="../images/flowers.jpg" alt="Andy Warhol's Flowers" title="Andy Warhol's Flowers" class="trans1">
+		  <br>
+		  <input name="paintings" type="checkbox" id="flowers" value="flowers">
+		  <label for="flowers">Flowers</label>
+	   </td>
+	   <td>
+		  <img src="../images/Andy_Warhol.jpg" alt="Andy Warhol selfportrait" title="Andy Warhol selfportrait">
+		  <br>
+		  <input name="paintings" type="checkbox" id="selfportrait" value="selfportrait">
+		  <label for="selfportrait">Selfportrait</label>
+	   </td>
+	   <td>
+		  <img src="../images/warhol.jpg" alt="Andy Warhol series" title="Andy Warhol series">
+		  <br>
+		  <input name="paintings" type="checkbox" id="series" value="series">
+		  <label for="series">Andy Warhol series</label>
+	   </td>
+	</tr>
+	<tr>
+	   <td>
+		  <img src="../images/Brigitte_Bardot.jpg" alt="Brigitte Bardot" title="Brigitte Bardot">
+		  <br>
+		  <input name="paintings" type="checkbox" id="BB" value="BB">
+		  <label for="BB">Brigitte Bardot</label>
+	   </td>
+	   <td>
+		  <img src="../images/marilyn.jpg" alt="Marilyn Monroe" title="Marilyn Monroe">
+		  <br>
+		  <input name="paintings" type="checkbox" id="MM" value="MM">
+		  <label for="MM">Marilyn Monroe</label>
+	   </td>
+	   <td>
+		  <img src="../images/James_Dean.jpg" alt="James Dean" title="James Dean">
+		  <br>
+		  <input name="paintings" type="checkbox" id="JD" value="JD">
+		  <label for="JD">James Dean</label>
+	   </td>
+	</tr>
+	<tr>
+	   <td>
+		  <img src="../images/John_Lennon.jpg" alt="John Lennon" title="John Lennon">
+		  <br>
+		  <input name="paintings" type="checkbox" id="JL" value="JL">
+		  <label for="BB">John Lennon</label>
+	   </td>
+	   <td>
+		  <img src="../images/mick_jagger.jpg" alt="Mick Jagger" title="Mick Jagger">
+		  <br>
+		  <input name="paintings" type="checkbox" id="MJ" value="MJ">
+		  <label for="MJ">Mick Jagger</label>
+	   </td>
+	   <td>
+		  <img src="../images/mao.jpg" alt="Mao Zedong" title="Mao Zedong">
+		  <br>
+		  <input name="paintings" type="checkbox" id="MZ" value="MZ">
+		  <label for="JD">Mao Zedong</label>
+	   </td>
+	</tr>
+  </table>
+</form>
+<br>	
+<fieldset>
+	<legend>Contact info</legend>
+	  <table id="tblForm">
+		  <tr>
+			 <td>
+	            <label for="name">Name:</label>
+			  </td>
+			  <td>
+	            <input type="text" name="name" id="name"> <br>
+			 </td>
+		  </tr>
+		  <tr>
+			 <td>
+	            <label for="surname">Surname:</label>
+			 </td>
+			 <td>
+	            <input type="text" name="surname" id="surname"><br>
+			 </td>	
+		  </tr>
+		  <tr>
+			 <td>
+	            <label for="email">email:</label>
+			 </td>
+			 <td>
+			  <input type="email" name="email" id="email"> <br>
+			 </td>
+		  </tr>
+	  </table>
+	<input type="submit" id="submitPaint" name="submitPaint" value="Submit" class="submitTrans">
+ </fieldset>
+	
+</main>
+	
+<footer id="footer">
+  <div class="subFoot">
+	<p>&copy; if studio</p>
+	<ul class="footerUl">
+	   <li><a href="../index.html" target="_blank">Main page</a></li>
+	   <li><a href="biography.html" target="_blank">Biography</a></li>
+	   <li><a href="works.html" target="_blank">Work</a></li>
+	   <li><a href="quotes.html" target="_blank">Quotes</a></li>
+	</ul>
+  </div> <!--end subFoot-->
+  <div id="social">
+	  <a href="#"><i class="fab fa-facebook-square"></i></a>
+	  <a href="#"><i class="fab fa-twitter-square"></i></a>
+	  <a href="#"><i class="fab fa-instagram"></i></a>
+  </div>
+</footer>	
+	
+</div>
+	
+</body>
+</html>
