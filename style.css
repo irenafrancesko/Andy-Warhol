@@ -1,0 +1,250 @@
+@charset "utf-8";
+body{
+    margin: 0;
+    padding: 0; 
+	font-family: 'Roboto', Arial, sans-serif;
+	font-weight: 400;
+}
+#bodyIndex{
+	background-image: url("images/Andy-warhol.png");
+	color: #FFFFFF;
+}
+#bodyBiography{
+    background-color: darkslategray;
+}
+#bodyWork{
+    background-color: brown;
+}
+#bodyQuotes{
+	background-image: url("images/Andy Warhol Merilyn Monroe 2.jpg");
+}
+#bodyCollection{
+	background-color: #2E2E2E;
+}
+#wrapper{
+	margin: 0 auto;
+	padding: 10px;
+	background-color: rgba(132,132,132,0.90);
+	width: 910px;
+}
+#header{
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+#subHead{
+	width: 500px;
+	float: left;
+}
+#subHeadIndex{
+	width: 490px;
+	float: left;
+}
+#header #subHeadIndex h1{
+    text-shadow: 2px 2px #000000;
+}
+#nav{
+	height: 45px;
+	background-color:rgba(77,77,77,0.87);
+	margin: 0;
+	width: 400px;
+	float: right;
+}
+#nav .navUl{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.navUl li{
+	display: inline-block;
+}
+.navUl li a{
+	padding: 10px 15px;
+	height: 25px;
+	line-height: 25px;
+	display: block;
+}
+.navUl li a:link,
+.navUl li a:visited{
+    color:#FFFFFF;
+	text-decoration: none;
+}
+.navUl li a:hover{
+	color:#FFFFFF;
+	text-decoration: none;
+	background: rgba(20,20,20,0.88);
+}
+.navUl li a:active{
+	color:#D39C1D;
+	text-decoration: none;
+	background: #282828;
+}
+.pos1{
+	position: relative;
+}
+.pos2{
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	z-index: 10;
+}
+#mainIndex{
+	width: 600px;
+	margin: 0;
+	padding: 0;
+	float: left;
+}
+#mainIndex a:link,
+#mainIndex a:visited{
+    color: #F4F490;
+    text-shadow: 3px 2px #000000;
+    letter-spacing: 1px;
+	text-decoration: none;
+}
+#mainIndex a:hover{
+    color: #EC870D;
+    text-shadow: 3px 2px #000000;
+    letter-spacing: 1px;
+	text-decoration: none;
+}
+#mainIndex a:active{
+    color: #F4F490;
+    text-shadow: 3px 2px #000000;
+    letter-spacing: 1px;
+	text-decoration: none;
+}
+#main{
+	margin: 0;
+	padding: 0;
+}
+#main a:link,
+#main a:visited{
+    color: #F4F490;
+	text-decoration: none;
+}
+#main a:hover{
+    color: #EC870D;
+	text-decoration: none;
+}
+#main a:active{
+    color: #F4F490;
+	text-decoration: none;
+}
+#article{
+	margin: 0;
+	padding: 0;
+}
+.wrap{
+	overflow: hidden;
+}
+.clear{
+	clear: both;
+}
+#sidebar{
+    width: 280px;
+    margin: 0;
+    padding: 0 10px;
+	font-size: 16px;
+    float: right;
+    text-align: center;
+}
+#sidebar ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+#sidebar li .title{
+    display: block;
+}
+#sidebar li .text{
+    display: block;
+}
+#footer{
+	background-color:rgba(77,77,77,0.87);
+	margin: 0;
+	clear: both;
+}
+#footer .subFoot{
+	height: 50px;
+	margin: 0 auto;
+    width: 600px;
+}
+#footer p{
+	display: inline-block;
+	padding: 0 15px;
+}
+#footer .footerUl{
+	margin: 0;
+	padding: 0;
+	display: inline-block;
+}
+.footerUl li{
+	display: inline-block;
+}
+.footerUl li a{
+	padding: 10px 20px;
+	display: block;
+}
+.footerUl li a:link,
+.footerUl li a:visited{
+    color:#FFFFFF;
+	text-decoration: none;
+}
+.footerUl li a:hover{
+	color:#DFB010;
+	text-decoration: none;
+}
+.footerUl li a:active{
+	color:#D39C1D;
+	text-decoration: none;
+}
+#social{
+	font-size: 25px;
+	text-align: center;
+}
+#social a:link,
+#social a:visited{
+    color:#FFFFFF;
+	text-decoration: none;
+	padding: 5px;
+}
+#social a:hover{
+	color:#DFB010;
+	text-decoration: none;
+	padding: 5px;
+}
+#social a:active{
+	color:#D39C1D;
+	text-decoration: none;
+	padding: 5px;
+}
+.fig{
+	margin-left: 0;
+}
+
+.imgLeft {
+    margin-right: 10px;
+    float: left;
+}
+#paint {
+    width: 910px;
+}
+#paint td{
+    text-align: center;	
+}
+#submitPaint{
+	margin-top: 10px;
+	border: medium;
+	border-color: dimgrey; 
+}
+.submitTrans{
+	background-color: #FFF;
+	transition: all 500ms linear;
+}
+.submitTrans:hover{
+	background-color: crimson;
+}
+.video{
+	margin: 10px 175px 10px 175px;
+}
